@@ -1,0 +1,25 @@
+{
+  "name": "skrylkovs/php-type-fixer",
+  "description": "Skrylkovs casting by values format package",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "homepage": "https://github.com/skrylkovs/php-type-fixer",
+  "authors": [
+    {
+      "name": "Sergei Skrylkov",
+      "email": "skrylkovs@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skrylkovs\\Library\\": ""
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true
+}
